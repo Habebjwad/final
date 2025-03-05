@@ -1,0 +1,10 @@
+{
+  "name": "Linux Desktop with RDP",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "settings": {},
+  "extensions": [],
+  "postCreateCommand": "sudo systemctl enable xrdp",
+  "remoteUser": "root"
+}
